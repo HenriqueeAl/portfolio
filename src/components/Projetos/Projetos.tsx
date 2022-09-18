@@ -1,6 +1,6 @@
 import './projetos.scss'
 
-const Projeto = (props)=>{
+const Projeto = (props: any)=>{
     return (
         <div className="projeto">
             <h1>{props.name}</h1>
