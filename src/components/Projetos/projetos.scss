@@ -2,7 +2,7 @@
     width: 400px;
     height: 250px;
     border-radius: 25px;
-    border: 1px solid gray;
+    border: 2px solid gray;
     margin: 50px;
     color: #3d3c3c;
     display: flex;
@@ -19,8 +19,11 @@
     }
     a{
         text-decoration: none;
-        color: #3d3c3c;
+        color: white;
         font-size: 0.9em;
+        background-color: #3d3c3c;
+        padding: 10px;
+        border-radius: 10px;
     }
     .links{
         width: 100%;

@@ -28,8 +28,8 @@ export const Projetos = ()=>{
             />
             <Projeto name='Lista de afazeres'
             descricao='Fiz uma lista de afazeres com HTML, CSS e ReactJs'
-            visu='https://henriqueeal.github.io/pokedex/'
-            repo='https://github.com/HenriqueeAl/pokedex/tree/main'
+            visu='https://henriqueeal.github.io/lista-de-afazeres/'
+            repo='https://github.com/HenriqueeAl/lista-de-afazeres'
             />
         </div>
     )
