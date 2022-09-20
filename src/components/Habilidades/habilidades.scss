@@ -1,7 +1,7 @@
 .habilidade{
     width: 200px;
     height: 200px;
-    border: 1px solid gray;
+    border: 2px solid gray;
     margin: 60px;
     margin-top: 10vh;
     border-radius: 15px;
@@ -9,6 +9,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    p{
+        color: #3d3c3c;
+    }
     img{
         width: 75px;
     }
