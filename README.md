@@ -2,7 +2,7 @@
 
 Olá,este é meu portfólio que contem meus projetos e algumas informações adicionais.
 
-Que tal visualialo? [Clique Aqui](portfolio.henriqueeal.vercel.app/).
+Que tal visualialo? [Clique Aqui](https://portfolio.henriqueeal.vercel.app/).
 
 
 ## 🛠️ Tecnologias usadas
