@@ -33,6 +33,16 @@
     }
 }
 
+.projeto:hover{
+    border: none;
+    color: white;
+    background-color: #3d3c3c;
+    a{
+        color: #3d3c3c;
+        background-color: white;
+    }
+}
+
 .projetos{
     display: flex;
     justify-content: center;
