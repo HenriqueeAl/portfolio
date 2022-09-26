@@ -43,10 +43,10 @@ header{
     @media (max-width:780px){
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
         flex-direction: row-reverse;
+        padding-right: 2.5%;
         height: 10vh;
-        padding-right: 5%;
     }
     #mobile{
         flex-direction: column;

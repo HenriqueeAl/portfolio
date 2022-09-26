@@ -6,7 +6,10 @@ import { Sobre } from './components/Sobre/Sobre'
 
 const togglemenu = ()=>{
   document.getElementById('mobile')?.classList.toggle('display')
-  console.log('oi')
+}
+
+const removemenu = ()=>{
+  document.getElementById('mobile')?.classList.remove('display')
 }
 
 function App() {
@@ -35,10 +38,12 @@ function App() {
           </ul>
         </nav>
       </header>
-      <Sobre />
-      <Habilidades />
-      <Projetos />
-      <Contatos />
+      <div onClick={removemenu}>
+        <Sobre/>
+        <Habilidades />
+        <Projetos />
+        <Contatos />
+      </div>
     </div>
   )
 }
