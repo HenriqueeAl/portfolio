@@ -40,6 +40,9 @@ header{
 
 .mobile{
     display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
     @media (max-width:780px){
         display: flex;
         align-items: center;
