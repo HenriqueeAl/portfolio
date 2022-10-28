@@ -1,4 +1,5 @@
 import './app.scss'
+import { Certificados } from './components/Certificados/Certificados'
 import { Contatos } from './components/Contatos/Contatos'
 import { Habilidades } from './components/Habilidades/Habilidades'
 import { Projetos } from './components/Projetos/Projetos'
@@ -22,6 +23,7 @@ function App() {
             <li><a href='#sobre'>Sobre</a></li>
             <li><a href='#habilidades'>Habilidades</a></li>
             <li><a href='#projetos'>Projetos</a></li>
+            <li><a href='#certificados'>Certificados</a></li>
             <li><a href='#contatos'>Contatos</a></li>
           </ul>
         </nav>
@@ -34,6 +36,7 @@ function App() {
             <li><a href='#sobre' onClick={togglemenu}>Sobre</a></li>
             <li><a href='#habilidades' onClick={togglemenu}>Habilidades</a></li>
             <li><a href='#projetos' onClick={togglemenu}>Projetos</a></li>
+            <li><a href='#certificados' onClick={togglemenu}>Certificados</a></li>
             <li><a href='#contatos' onClick={togglemenu}>Contatos</a></li>
           </ul>
         </nav>
@@ -42,6 +45,7 @@ function App() {
         <Sobre/>
         <Habilidades />
         <Projetos />
+        <Certificados />
         <Contatos />
       </div>
     </div>

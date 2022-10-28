@@ -1,0 +1,40 @@
+.certificados{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    padding: 10%;
+    .certificado{
+        width: 80%;
+        height: 200px;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 2px solid gray;
+        border-radius: 20px;
+        color: #3d3c3c;
+        h1{
+            font-size: 1.6em;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 0.9em;
+            background-color: #3d3c3c;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    }
+    .certificado:hover{
+        border: none;
+        color: white;
+        background-color: #3d3c3c;
+        a{
+            color: #3d3c3c;
+            background-color: white;
+        }
+    }
+}
