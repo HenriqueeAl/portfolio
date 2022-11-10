@@ -1,10 +1,12 @@
 .sobre{
-    padding-top: 10%;
-    padding-bottom: 10%;
+    margin: 0 auto;
+    max-width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-bottom: 1px solid gray;
+    height: 90vh;
+    max-height: 850px;
     @media (max-width:880px){
         flex-direction: column-reverse;
         justify-content: space-evenly;
@@ -26,7 +28,7 @@
         height: 300px;
         border-radius: 150px;
         background-image: url(/henrique.png);
-        background-position: 10px  500px;
+        background-position: center 40%;
         background-size: cover;
         border: 5px white solid;
         -webkit-box-shadow: 0px 0px 19px 0px #000000; 

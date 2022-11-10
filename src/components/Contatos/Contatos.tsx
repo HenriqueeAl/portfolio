@@ -3,6 +3,7 @@ import './contatos.scss'
 export const Contatos = ()=>{
     return (
         <div className='contatos' id='contatos'>
+            <h3>Contatos</h3>
             <div className='row'>
                 <div className='GitHub'>
                     <a href='https://github.com/HenriqueeAl' target='_blank'>

@@ -1,5 +1,5 @@
 .projeto{
-    width: 400px;
+    max-width: 400px;
     height: 250px;
     border-radius: 25px;
     border: 2px solid gray;
@@ -44,9 +44,19 @@
 }
 
 .projetos{
-    display: flex;
-    justify-content: center;
-    padding: 10%;
-    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 95%;
     border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    margin-top: 1px;
+    color: #3d3c3c;
+    .lista-projetos{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
 }

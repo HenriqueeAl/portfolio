@@ -13,12 +13,15 @@ const Habilidade = (props: any)=>{
 export const Habilidades = ()=>{
     return(
         <div className='habilidades' id='habilidades'>
-            <Habilidade name='HTML' img='html.svg'/>
-            <Habilidade name='CSS' img='css.svg'/>
-            <Habilidade name='Sass' img='sass.svg'/>
-            <Habilidade name='JavaScript' img='js.svg'/>
-            <Habilidade name='TypeScript' img='ts.svg'/>
-            <Habilidade name='ReactJs' img='react.svg'/>
+            <h3>Habilidades</h3>
+            <div className='lista-habilidades'>
+                <Habilidade name='HTML' img='html.svg'/>
+                <Habilidade name='CSS' img='css.svg'/>
+                <Habilidade name='Sass' img='sass.svg'/>
+                <Habilidade name='JavaScript' img='js.svg'/>
+                <Habilidade name='TypeScript' img='ts.svg'/>
+                <Habilidade name='ReactJs' img='react.svg'/>
+            </div>
         </div>
     )
 }

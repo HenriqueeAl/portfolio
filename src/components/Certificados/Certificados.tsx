@@ -15,8 +15,12 @@ const Certificado = (props: any)=>{
 export const Certificados = ()=>{
     return(
         <div id='certificados' className='certificados'>
-            <Certificado name='Treina Web Multi-stack'
-            acessar='https://www.treinaweb.com.br/certificado/COE3ES36KOMH'/>
+            <h3>Certificados</h3>
+            <div className='lista-certificados'>
+                <Certificado name='Treina Web Multi-stack'
+                acessar='https://www.treinaweb.com.br/certificado/COE3ES36KOMH'/>
+            </div>
+            
         </div>
     )
 }

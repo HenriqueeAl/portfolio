@@ -14,6 +14,7 @@
 body{
     background-color: #EFF0F3;
     background-image: url(/bg.png);
+    width: 98vw;
 }
 
 header{
@@ -34,6 +35,7 @@ header{
             color: #3d3c3c;
             cursor: pointer;
             text-decoration: none;
+            
         }
     }
 }
@@ -73,4 +75,17 @@ header{
 
 .display{
     display: flex;
+}
+
+.desktop{
+    li{
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: center; 
+        border-left: 2px solid gray;
+    }
+    li:nth-last-child(5){
+        border-left: none;
+    }
 }

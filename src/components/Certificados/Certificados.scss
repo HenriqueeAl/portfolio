@@ -1,40 +1,48 @@
 .certificados{
-    width: 100%;
-    display: flex;
-    justify-content: center;
     border-bottom: 1px solid gray;
-    padding: 10%;
-    .certificado{
-        width: 80%;
-        height: 200px;
-        max-width: 400px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    color: #3d3c3c;
+    .lista-certificados{
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        border: 2px solid gray;
-        border-radius: 20px;
-        color: #3d3c3c;
-        h1{
-            font-size: 1.6em;
-            text-align: center;
-        }
-        a{
-            text-decoration: none;
-            color: white;
-            font-size: 0.9em;
-            background-color: #3d3c3c;
-            padding: 10px;
-            border-radius: 10px;
-        }
-    }
-    .certificado:hover{
-        border: none;
-        color: white;
-        background-color: #3d3c3c;
-        a{
+        justify-content: center;
+        padding: 5%;
+        .certificado{
+            width: 95%;
+            height: 200px;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            border: 2px solid gray;
+            border-radius: 20px;
             color: #3d3c3c;
-            background-color: white;
+            h1{
+                font-size: 1.5em;
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 0.9em;
+                background-color: #3d3c3c;
+                padding: 10px;
+                border-radius: 10px;
+            }
+        }
+        .certificado:hover{
+            border: none;
+            color: white;
+            background-color: #3d3c3c;
+            a{
+                color: #3d3c3c;
+                background-color: white;
+            }
         }
     }
 }

@@ -2,6 +2,12 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    max-width: 95%;
+    margin: 0 auto;
+    h3{
+        padding-top: 5%;
+        color: #3d3c3c;
+    }
     p{
         margin-bottom: 10vh;
         color: #3d3c3c;
