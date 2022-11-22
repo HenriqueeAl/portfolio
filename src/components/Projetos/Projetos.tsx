@@ -20,8 +20,8 @@ export const Projetos = ()=>{
             <div className='lista-projetos'>
                 <Projeto name='Pizza Time' 
                 descricao='Landing Page de pizzas utilizando Nexts com TypeScript e SASS.'
-                visu='https://github.com/HenriqueeAl/Pizza-Time'
-                repo='https://pizza-time-five.vercel.app/'
+                visu='https://pizza-time-five.vercel.app/'
+                repo='https://github.com/HenriqueeAl/Pizza-Time'
                 />
                 <Projeto name='Burger Empire'
                 descricao='Um desafio da plataforma brchallenges feito com HTML, Sass, ReactJs e TypeScript.'

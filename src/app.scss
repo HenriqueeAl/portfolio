@@ -8,13 +8,13 @@
 
 .container{
     max-width: 1500px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 body{
     background-color: #EFF0F3;
     background-image: url(/bg.png);
-    width: 98vw;
+    max-width: 100vw;
 }
 
 header{
