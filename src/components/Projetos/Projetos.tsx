@@ -18,6 +18,11 @@ export const Projetos = ()=>{
         <div className='projetos' id='projetos'>
             <h3>Projetos</h3>
             <div className='lista-projetos'>
+            <Projeto name='Blizzard'
+                descricao='Um desafio da plataforma brchallenges feito com ReactJs, TypeScript e SASS.'
+                visu='https://blizzard-iota.vercel.app/'
+                repo='https://github.com/HenriqueeAl/blizzard'
+                />
                 <Projeto name='Pizza Time' 
                 descricao='Landing Page de pizzas utilizando Nexts com TypeScript e SASS.'
                 visu='https://pizza-time-five.vercel.app/'
@@ -27,16 +32,6 @@ export const Projetos = ()=>{
                 descricao='Um desafio da plataforma brchallenges feito com HTML, Sass, ReactJs e TypeScript.'
                 visu='https://empire-burger-brchallenges.vercel.app/'
                 repo='https://github.com/HenriqueeAl/Empire-Burger---BRChallenges'
-                />
-                <Projeto name='Pokedex' 
-                descricao='Fiz uma pokedex consumindo a pokeapi com fetch utilizando as seguintes tecnologias HTML, CSS e ReactJs.'
-                visu='https://henriqueeal.github.io/pokedex/'
-                repo='https://github.com/HenriqueeAl/pokedex/tree/main'
-                />
-                <Projeto name='Lista de afazeres'
-                descricao='Fiz uma lista de afazeres com HTML, CSS e ReactJs'
-                visu='https://henriqueeal.github.io/lista-de-afazeres/'
-                repo='https://github.com/HenriqueeAl/lista-de-afazeres'
                 />
             </div>
         </div>
