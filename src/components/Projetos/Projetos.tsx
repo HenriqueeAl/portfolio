@@ -18,7 +18,12 @@ export const Projetos = ()=>{
         <div className='projetos' id='projetos'>
             <h3>Projetos</h3>
             <div className='lista-projetos'>
-            <Projeto name='Blizzard'
+                <Projeto name='Todo-List'
+                descricao='Minha primeira aplicação fullstack utilizando react e node.'
+                visu='https://todolist-crud.vercel.app/'
+                repo='https://github.com/HenriqueeAl/Todolist-crud'
+                />
+                <Projeto name='Blizzard'
                 descricao='Um desafio da plataforma brchallenges feito com ReactJs, TypeScript e SASS.'
                 visu='https://blizzard-iota.vercel.app/'
                 repo='https://github.com/HenriqueeAl/blizzard'
