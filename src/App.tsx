@@ -13,12 +13,15 @@ const removemenu = ()=>{
   document.getElementById('mobile')?.classList.remove('display')
 }
 
+const tag = '</>'
+
 function App() {
 
   return (
     <div className="App container">
       <header>
         <nav className='desktop'>
+          <div className='tag'>{tag}</div>
           <ul>
             <li><a href='#sobre'>Sobre</a></li>
             <li><a href='#habilidades'>Habilidades</a></li>

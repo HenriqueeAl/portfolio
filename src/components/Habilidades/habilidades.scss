@@ -1,6 +1,6 @@
 .habilidade{
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     border: 2px solid gray;
     margin: 60px;
     border-radius: 15px;
@@ -15,7 +15,7 @@
         color: #3d3c3c;
     }
     img{
-        width: 75px;
+        width: 40%;
         transition: 0.5s;
     }
 }
@@ -23,6 +23,7 @@
 .habilidade:hover{
     background-color: #3d3c3c;
     border: none;
+    cursor: pointer;
     p{
         color: white;
     }

@@ -17,6 +17,10 @@ body{
     max-width: 100vw;
 }
 
+.tag{
+    width: 40%;
+}
+
 header{
     width: 100%;
     height: 70px;
@@ -79,6 +83,19 @@ header{
 }
 
 .desktop{
+    display: flex;
+    align-items: center;
+    .tag{
+        font-size: 1.2em;
+        width: 40%;
+        padding-left: 1%;
+        color: #3d3c3c;
+        font-weight: bold;
+    }
+    ul{
+        width: 60%;
+        font-weight: bold;
+    }
     li{
         width: 100%;
         display: flex;
