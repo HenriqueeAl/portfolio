@@ -21,6 +21,8 @@ export const Habilidades = ()=>{
                 <Habilidade name='JavaScript' img='js.svg'/>
                 <Habilidade name='TypeScript' img='ts.svg'/>
                 <Habilidade name='ReactJs' img='react.svg'/>
+                <Habilidade name='NodeJs' img='node.svg'/>
+                <Habilidade name='Prisma' img='prisma.svg'/>
             </div>
         </div>
     )
