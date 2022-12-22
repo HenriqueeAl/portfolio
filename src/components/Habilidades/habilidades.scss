@@ -2,14 +2,14 @@
     width: 120px;
     height: 120px;
     border: 2px solid gray;
-    margin: 60px;
+    margin: 40px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    @media (max-width: 350px) {
-        margin: 30px 0;
+    @media (max-width: 450px) {
+        margin: 20px 10px;
     }
     p{
         color: #3d3c3c;
