@@ -1,6 +1,13 @@
 import './projetos.scss'
 
-const Projeto = (props: any)=>{
+interface Projeto{
+    name: string;
+    descricao: string;
+    visu: string;
+    repo: string
+}
+
+const Projeto = (props: Projeto)=>{
     return (
         <div className="projeto">
             <h1>{props.name}</h1>

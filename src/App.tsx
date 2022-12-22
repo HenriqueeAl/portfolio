@@ -34,7 +34,7 @@ function App() {
           <img src='menu.svg' onClick={togglemenu}></img>
           <ul id='mobile'>
             <div className='close'>
-              <img src='menu.svg' onClick={togglemenu}></img>
+              <img src='close.svg' onClick={togglemenu}></img>
             </div>
             <li><a href='#sobre' onClick={togglemenu}>Sobre</a></li>
             <li><a href='#habilidades' onClick={togglemenu}>Habilidades</a></li>

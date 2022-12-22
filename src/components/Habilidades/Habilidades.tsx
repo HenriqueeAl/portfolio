@@ -1,7 +1,12 @@
 import './habilidades.scss'
 import { AiFillHtml5 } from 'react-icons/ai';
 
-const Habilidade = (props: any)=>{
+interface Habilidade {
+    img: string;
+    name: string
+}
+
+const Habilidade = (props: Habilidade)=>{
     return(
         <div className="habilidade">
             <img src={props.img}></img>
