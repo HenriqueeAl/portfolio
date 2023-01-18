@@ -21,6 +21,9 @@ header{
     width: 100%;
     height: 70px;
     position: relative;
+    @media (max-width:1550px) {
+        padding: 0 5%;
+    }
     ul{
         display: flex;
         align-items: center;
@@ -68,6 +71,15 @@ header{
         overflow: hidden;
         @media (max-width:430px) {
             width: 80vw;
+            animation: width2 .5s;
+            @keyframes width2 {
+                from{
+                    width: 0%;
+                }
+                to{
+                    width: 80vw;
+                }
+            }
         }
         .close{
             position: absolute;

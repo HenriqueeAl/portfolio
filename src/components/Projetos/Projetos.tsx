@@ -56,6 +56,11 @@ export const Projetos = ()=>{
                 visu='https://empire-burger-brchallenges.vercel.app/'
                 repo='https://github.com/HenriqueeAl/Empire-Burger---BRChallenges'
                 />
+                <Projeto name='Space'
+                descricao='Um desafio da plataforma brchallenges feito com HTML, Sass, ReactJs e TypeScript.'
+                visu='https://space-three-rose.vercel.app/home'
+                repo='https://github.com/HenriqueeAl/Space'
+                />
             </div>
         </div>
     )

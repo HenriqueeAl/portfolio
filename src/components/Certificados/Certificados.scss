@@ -9,7 +9,9 @@
     color: #3d3c3c;
     .lista-certificados{
         display: flex;
-        justify-content: center;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
         margin-top: 5%;
         margin-bottom: 5%;
         .certificado{
@@ -23,6 +25,7 @@
             border: 2px solid gray;
             border-radius: 20px;
             color: #3d3c3c;
+            margin-bottom: 10%;
             h1{
                 font-size: 1.5em;
                 text-align: center;
